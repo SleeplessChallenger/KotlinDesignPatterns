@@ -5,4 +5,6 @@
 <h3>Features</h3>
 
 - Code is written in Kotlin as I wanted so (sorry Python)
-- In `images` folder you can see patterns drawn on the board for clarification
+- Visit `src/main` folder where you can find `images` & `kotlin`:
+  - Former is my drawings of the patterns for clarification
+  - Latter consists of my code
