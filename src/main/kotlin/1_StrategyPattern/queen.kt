@@ -13,6 +13,6 @@ class Queen: OurCharacter() {
     }
 
     override fun useWeapon() {
-        newWeapon.useWeapon()
+        newWeapon.use()
     }
 }

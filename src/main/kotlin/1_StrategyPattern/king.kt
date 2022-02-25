@@ -13,6 +13,6 @@ class King: OurCharacter() {
     }
 
     override fun useWeapon() {
-        newWeapon.useWeapon()
+        newWeapon.use()
     }
 }

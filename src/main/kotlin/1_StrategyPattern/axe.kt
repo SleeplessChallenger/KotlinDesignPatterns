@@ -1,7 +1,7 @@
 package `1_StrategyPattern`
 
 class Axe: WeaponOfCharacter {
-    override fun useWeapon() {
+    override fun use() {
         axe()
     }
 

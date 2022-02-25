@@ -1,7 +1,7 @@
 package `1_StrategyPattern`
 
 class Sword: WeaponOfCharacter {
-    override fun useWeapon() {
+    override fun use() {
         sword()
     }
 

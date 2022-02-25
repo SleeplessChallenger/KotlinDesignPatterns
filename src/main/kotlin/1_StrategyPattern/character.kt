@@ -5,7 +5,7 @@ abstract class OurCharacter() {
     abstract val newWeapon: WeaponOfCharacter
 
     open fun useWeapon() {
-        newWeapon.useWeapon()
+        newWeapon.use()
     }
 
     abstract fun fight()
