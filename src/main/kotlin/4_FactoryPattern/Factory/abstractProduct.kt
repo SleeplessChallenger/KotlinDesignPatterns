@@ -1,4 +1,4 @@
-package `4_FactoryPattern`.RealFactory
+package `4_FactoryPattern`.Factory
 
 abstract class abstractProduct {
     abstract val attr1: String

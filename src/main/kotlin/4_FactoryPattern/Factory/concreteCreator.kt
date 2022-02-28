@@ -1,4 +1,4 @@
-package `4_FactoryPattern`.RealFactory
+package `4_FactoryPattern`.Factory
 
 class concreteCreator: abstractCreator() {
     override fun createObject(type: String): abstractProduct {

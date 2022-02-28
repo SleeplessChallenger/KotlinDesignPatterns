@@ -1,4 +1,4 @@
-package `4_FactoryPattern`.RealFactory
+package `4_FactoryPattern`.Factory
 
 fun main(): Unit {
     val newCreate: abstractCreator = concreteCreator()

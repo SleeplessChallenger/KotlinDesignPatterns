@@ -1,4 +1,4 @@
-package `4_FactoryPattern`.RealFactory
+package `4_FactoryPattern`.Factory
 
 class concreteProduct2: abstractProduct() {
     override val attr1: String = "Second sub-product!"
