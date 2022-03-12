@@ -3,7 +3,7 @@ package `5_CommandPattern`
 class RemoteControl {
     val onCommands: MutableList<Command> = MutableList<Command>(6) { NoCommand() }
     val offCommands: MutableList<Command> = MutableList<Command>(6) { NoCommand() }
-    lateinit var undoCommand: Command
+    var undoCommand: Command = NoCommand()
 
     fun setCommand(slot: Int, onCommand: Command, offCommand: Command): Unit {
         onCommands[slot] = onCommand
@@ -23,6 +23,6 @@ class RemoteControl {
     }
 
     fun undoCommandPush() {
-        undoCommand.execute()
+        undoCommand.undo()
     }
 }
