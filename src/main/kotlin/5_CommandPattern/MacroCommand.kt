@@ -1,7 +1,7 @@
 package `5_CommandPattern`
 
-class MacroCommand: Command {
-    val allCommands: MutableList<Command> = mutableListOf<Command>()
+class MacroCommand(currentCommands: MutableList<Command>): Command {
+    val allCommands: MutableList<Command> = currentCommands
 
     override fun execute() {
         for(i in 0 until allCommands.size) {
