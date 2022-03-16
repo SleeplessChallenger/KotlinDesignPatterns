@@ -1,10 +1,8 @@
 package `5_CommandPattern`
 
-import kotlin.properties.Delegates
-
 class CeilingFan(currentFan: String) {
     // resembles Java static
-    companion object Regimes {
+    companion object {
         public fun highRegime(): Int {
             return 5
         }
@@ -24,25 +22,25 @@ class CeilingFan(currentFan: String) {
 
     val location: String = currentFan
     // by default `speed` is at OffRegime
-    private var speed: Int = Regimes.offRegime()
+    private var speed: Int = offRegime()
 
     fun high() {
-        speed = Regimes.highRegime()
+        speed = highRegime()
         println("Fan is on Max")
     }
 
     fun medium() {
-        speed = Regimes.mediumRegime()
+        speed = mediumRegime()
         println("Fan is on Medium")
     }
 
     fun low() {
-        speed = Regimes.lowRegime()
+        speed = lowRegime()
         println("Fan is on Low")
     }
 
     fun off() {
-        speed = Regimes.offRegime()
+        speed = offRegime()
         println("fan is Off")
     }
 

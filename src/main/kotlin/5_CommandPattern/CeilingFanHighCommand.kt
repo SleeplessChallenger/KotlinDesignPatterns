@@ -14,16 +14,16 @@ class CeilingFanHighCommand(fan: CeilingFan): Command {
 
     override fun undo() {
         when (prevSpeed) {
-            CeilingFan.Regimes.highRegime() -> {
+            CeilingFan.highRegime() -> {
                 currentFan.high()
             }
-            CeilingFan.Regimes.mediumRegime() -> {
+            CeilingFan.mediumRegime() -> {
                 currentFan.medium()
             }
-            CeilingFan.Regimes.lowRegime() -> {
+            CeilingFan.lowRegime() -> {
                 currentFan.low()
             }
-            CeilingFan.Regimes.offRegime() -> {
+            CeilingFan.offRegime() -> {
                 currentFan.off()
             }
         }
