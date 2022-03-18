@@ -1,4 +1,4 @@
-package `5_CommandPattern`
+package `6_CommandPattern`
 
 class MacroCommand(currentCommands: MutableList<Command>): Command {
     val allCommands: MutableList<Command> = currentCommands

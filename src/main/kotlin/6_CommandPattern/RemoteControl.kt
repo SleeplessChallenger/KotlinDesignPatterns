@@ -1,4 +1,4 @@
-package `5_CommandPattern`
+package `6_CommandPattern`
 
 class RemoteControl {
     val onCommands: MutableList<Command> = MutableList<Command>(6) { NoCommand() }

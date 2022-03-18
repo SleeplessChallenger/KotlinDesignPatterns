@@ -1,15 +1,15 @@
-package `5_CommandPattern`
+package `6_CommandPattern`
 
 import kotlin.properties.Delegates
 
-class CeilingFanHighCommand(fan: CeilingFan): Command {
+class CeilingFanLowCommand(fan: CeilingFan): Command {
     private val currentFan: CeilingFan = fan
 
     var prevSpeed by Delegates.notNull<Int>()
 
     override fun execute() {
         prevSpeed = currentFan.giveSpeed()
-        currentFan.high()
+        currentFan.low()
     }
 
     override fun undo() {

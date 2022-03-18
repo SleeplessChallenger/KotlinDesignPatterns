@@ -1,4 +1,4 @@
-package `5_CommandPattern`
+package `6_CommandPattern`
 
 class RemoteLoader {
     val ourRemoteControl: RemoteControl = RemoteControl()

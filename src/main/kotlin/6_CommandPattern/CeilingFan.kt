@@ -1,4 +1,4 @@
-package `5_CommandPattern`
+package `6_CommandPattern`
 
 class CeilingFan(currentFan: String) {
     // resembles Java static

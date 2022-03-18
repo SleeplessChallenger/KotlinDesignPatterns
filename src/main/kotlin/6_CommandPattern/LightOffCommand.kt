@@ -1,4 +1,4 @@
-package `5_CommandPattern`
+package `6_CommandPattern`
 
 class LightOffCommand(light: Light): Command {
     private val currentLight: Light = light
