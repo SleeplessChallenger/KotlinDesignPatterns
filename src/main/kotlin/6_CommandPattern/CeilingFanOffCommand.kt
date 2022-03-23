@@ -5,7 +5,6 @@ import kotlin.properties.Delegates
 class CeilingFanOffCommand(fan: CeilingFan): Command {
     private val currentFan: CeilingFan = fan
 
-    // TODO: discuss it
     var speed by Delegates.notNull<Int>()
 
     var prevSpeed by Delegates.notNull<Int>()

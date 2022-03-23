@@ -25,6 +25,7 @@ class RemoteLoader {
     init {
         ourRemoteControl.setCommand(0, lightOn, lightOff)
         ourRemoteControl.setCommand(3, fanHigh, fanOff)
+        ourRemoteControl.setCommand(2, macroCommandOn, macroCommandOff)
     }
 }
 

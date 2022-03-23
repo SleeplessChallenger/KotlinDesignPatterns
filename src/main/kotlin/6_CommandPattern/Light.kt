@@ -7,7 +7,6 @@ import kotlin.properties.Delegates
 class Light(currentLight: String) {
     val light: String = currentLight
 
-    // TODO: ask about + reason why Kotlin can't compile
     var level by Delegates.notNull<Int>()
 
     fun on(): Unit {
