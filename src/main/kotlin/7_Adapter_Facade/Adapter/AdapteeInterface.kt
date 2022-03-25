@@ -1,7 +1,7 @@
 package `7_Adapter_Facade`.Adapter
 
-interface Adaptee_Interface {
+interface AdapteeInterface {
     fun sendRequestFast(): Unit
 
-    fun receiveFeedbackViaMail(): Unit
+    fun receiveRequestFast(): Unit
 }

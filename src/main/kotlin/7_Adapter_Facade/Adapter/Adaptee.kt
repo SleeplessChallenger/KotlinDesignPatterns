@@ -1,11 +1,11 @@
 package `7_Adapter_Facade`.Adapter
 
-class Adaptee: Adaptee_Interface {
+class Adaptee: AdapteeInterface {
     override fun sendRequestFast() {
-        println("Send request in a fast manner")
+        println("Send request fast")
     }
 
-    override fun receiveFeedbackViaMail() {
-        println("Receive feedback via mail")
+    override fun receiveRequestFast() {
+        println("receive request fast")
     }
 }

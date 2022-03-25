@@ -1,13 +1,13 @@
 package `7_Adapter_Facade`.Adapter
 
-class TargetAdapter(currObject: Target_Interface): Adaptee_Interface {
-    val currentTarget = currObject
+class Adapter(adaptee: Adaptee): TargetInterface {
+    private val currentAdaptee: Adaptee = adaptee
 
-    override fun sendRequestFast() {
-        currentTarget.sendRequest()
+    override fun sendRequest() {
+        currentAdaptee.sendRequestFast()
     }
 
-    override fun receiveFeedbackViaMail() {
-        currentTarget.receiveFeedback()
+    override fun receiveRequest() {
+        currentAdaptee.receiveRequestFast()
     }
 }

@@ -1,8 +1,7 @@
 package `7_Adapter_Facade`.Adapter
 
-interface Target_Interface {
-
+interface TargetInterface {
     fun sendRequest(): Unit
 
-    fun receiveFeedback(): Unit
+    fun receiveRequest(): Unit
 }

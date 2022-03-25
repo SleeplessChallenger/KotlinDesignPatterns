@@ -1,11 +1,11 @@
 package `7_Adapter_Facade`.Adapter
 
-class Target: Target_Interface {
+class Target: TargetInterface {
     override fun sendRequest() {
-        println("Send request fast")
+        println("Send request")
     }
 
-    override fun receiveFeedback() {
-        println("Receive feedback")
+    override fun receiveRequest() {
+        println("Receive request")
     }
 }
