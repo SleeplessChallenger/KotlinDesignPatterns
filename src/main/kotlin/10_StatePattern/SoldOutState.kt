@@ -12,8 +12,9 @@ class SoldOutState(context: Context): State {
         println("You can't eject, you haven't inserted a quarter yet")
     }
 
-    override fun turnCrank() {
+    override fun turnCrank(): Boolean {
         println("You turned, but there are no gumballs")
+        return false
     }
 
     override fun dispense() {

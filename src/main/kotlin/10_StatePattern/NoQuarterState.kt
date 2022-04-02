@@ -12,8 +12,9 @@ class NoQuarterState(context: Context): State {
         println("You haven't inserted a quarter")
     }
 
-    override fun turnCrank() {
+    override fun turnCrank(): Boolean {
         println("You turned, but there's no quarter")
+        return false
     }
 
     override fun dispense() {

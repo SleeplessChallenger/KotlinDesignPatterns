@@ -27,8 +27,12 @@ class Context(gumballCount: Int) {
     }
 
     fun turnCrank() {
-        currentState.turnCrank() // To work this must be triggered on `HasQuarterState`
-        currentState.dispense() // Previous State changes to SoldState which has this method
+        val crankWasTurned: Boolean = currentState.turnCrank() // To work this must be triggered on `HasQuarterState`
+        if (crankWasTurned) {
+            currentState.dispense() // Previous State changes to SoldState which has this method
+        } else {
+            println("You can't turn crank unless it is a HasQuarterState")
+        }
     }
 
     fun releaseGumBall() {

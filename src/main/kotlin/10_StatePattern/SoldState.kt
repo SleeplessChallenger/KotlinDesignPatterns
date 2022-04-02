@@ -12,8 +12,9 @@ class SoldState(context: Context): State {
         println("Sorry, you already turned the crank")
     }
 
-    override fun turnCrank() {
+    override fun turnCrank(): Boolean {
         println("Turning twice doesn't get you another gumball!")
+        return false
     }
 
     override fun dispense() {

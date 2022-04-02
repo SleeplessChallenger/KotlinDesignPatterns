@@ -11,8 +11,9 @@ class WinnerState(context: Context): State {
         println("Please wait, we're already giving you a Gumball")
     }
 
-    override fun turnCrank() {
+    override fun turnCrank(): Boolean {
         println("Turning again doesn't get you another gumball!")
+        return false
     }
 
     override fun dispense() {

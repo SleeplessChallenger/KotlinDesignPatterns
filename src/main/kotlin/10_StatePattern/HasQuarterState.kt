@@ -15,7 +15,7 @@ class HasQuarterState(context: Context): State {
         currentContext.setState(currentContext.getNoQuarterState())
     }
 
-    override fun turnCrank() {
+    override fun turnCrank(): Boolean {
         println("You turned the crank")
         val currWinner = randomWinner.nextInt(10)
 
@@ -24,6 +24,7 @@ class HasQuarterState(context: Context): State {
         } else {
             currentContext.setState(currentContext.getSoldState())
         }
+        return true
     }
 
     override fun dispense() {
