@@ -20,3 +20,4 @@
 5. Singleton pattern: <a href="https://medium.com/dev-genius/singleton-pattern-for-one-of-a-kind-objects-java-a63c774d9d4" >Click here to visit Medium article</a>
 6. Command pattern: <a href="https://medium.com/dev-genius/command-pattern-for-encapsulated-invocation-kotlin-4338eb23d2ca" >Click here to visit Medium article</a>
 7. Adapter & Facade patterns: <a href="https://medium.com/dev-genius/adapter-facade-pattern-for-perfect-adapting-kotlin-ccbc8f8cfcd6" >Click here to visit Medium article</a>
+8. Template pattern: <a href="https://medium.com/dev-genius/template-pattern-for-encapsulating-algorithms-kotlin-3ded81377fc5" >Click here to visit Medium article</a>
