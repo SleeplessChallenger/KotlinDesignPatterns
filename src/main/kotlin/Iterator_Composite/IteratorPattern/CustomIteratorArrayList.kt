@@ -10,7 +10,7 @@ class CustomIteratorArrayList(menuItems: ArrayList<MenuItem>): Iterator {
     }
 
     override fun next(): MenuItem {
-        val currentItem: MenuItem = allItems[currentIndex]
+        val currentItem: MenuItem = allItems.get(currentIndex)
         currentIndex += 1
         return currentItem
     }
