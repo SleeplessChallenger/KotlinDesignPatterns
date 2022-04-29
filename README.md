@@ -21,3 +21,5 @@
 6. Command pattern: <a href="https://medium.com/dev-genius/command-pattern-for-encapsulated-invocation-kotlin-4338eb23d2ca" >Click here to visit Medium article</a>
 7. Adapter & Facade patterns: <a href="https://medium.com/dev-genius/adapter-facade-pattern-for-perfect-adapting-kotlin-ccbc8f8cfcd6" >Click here to visit Medium article</a>
 8. Template pattern: <a href="https://medium.com/dev-genius/template-pattern-for-encapsulating-algorithms-kotlin-3ded81377fc5" >Click here to visit Medium article</a>
+9. Iterator & Composite patterns: <a href="https://medium.com/dev-genius/iterator-composite-patterns-for-managing-collection-kotlin-fda036ffda9f" >Click here to visit Medium article</a>
+10. State pattern: <a href="https://medium.com/dev-genius/state-pattern-for-changing-internal-processes-kotlin-72bd4ef92b2e" >Click here to visit Medium article</a>
